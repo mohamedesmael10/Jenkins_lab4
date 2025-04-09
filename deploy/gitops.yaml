@@ -6,8 +6,8 @@ metadata:
     env: gitops 
 spec:
   containers:
-  - image: iam4hills/dockerdemo:tomcatapp-4
+  - image: iam6hills/dockerdemo:tomcatapp-6
     name: app1
     ports:
-    - containerPort: 4040
+    - containerPort: 6060
     imagePullPolicy: Always
