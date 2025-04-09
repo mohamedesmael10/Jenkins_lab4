@@ -6,7 +6,7 @@ metadata:
     env: gitops 
 spec:
   containers:
-  - image: iam7hills/dockerdemo:tomcatapp-25
+  - image: iam7hills/dockerdemo:tomcatapp-7
     name: app1
     ports:
     - containerPort: 8080
