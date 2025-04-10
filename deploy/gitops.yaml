@@ -5,8 +5,8 @@ metadata:
   labels:
     env: gitops 
 spec:
-  containers:
-  - image: iam9hills/dockerdemo:tomcatapp-9
+  containers
+  - image: iam9hills/dockerdemo:tomcatapp-32
     name: app1
     ports:
     - containerPort: 9090
